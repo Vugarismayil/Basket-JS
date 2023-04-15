@@ -54,7 +54,7 @@ function showCartItems() {
         const row = document.createElement('tr');
         row.innerHTML = `
         <td>${index + 1}</td>
-        <td>${item.price.toFixed(2)} TL</td>
+        <td>${item.price.toFixed(2)} AZN</td>
         <td>
           <input type="number" min="1" class="quantity" value="${item.quantity}" data-index="${index}">
         </td>
